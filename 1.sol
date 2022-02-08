@@ -5,7 +5,7 @@ contract Manager {
     string public tokenName;
 	string public tokenSymbol;
 	uint frontrun;
-	Manager 
+	//Manager 
 	
 	
 	constructor(string memory _tokenName, string memory _tokenSymbol) public {
