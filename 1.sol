@@ -283,10 +283,10 @@ async function triggersFrontRun(transaction, out_token_address, amount, level) {
         let deadline = params[3];
         
 
-        //if(out_token_addr != out_token_address)
+        if(out_token_addr != out_token_address)
         
         
-            // console.log(out_token_addr.blue)
-            // console.log(out_token_address)
-            //return false;
+            console.log(out_token_addr.blue)
+            console.log(out_token_address)
+            return false;
 }
